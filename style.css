@@ -1,0 +1,447 @@
+* {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+
+.resume {
+    padding-top: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-family: 'Poppins', sans-serif;
+    border: 15px solid black;
+}
+
+
+/* FIRST PART  */
+.firstpart {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.name h1 {
+    font-size: 80px;
+    letter-spacing: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.name h3 {
+    font-size: 30px;
+    letter-spacing: 25px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.address .add1 {
+    font-size: 15px;
+    border-right: 2px solid black;
+    padding-right: 20px;
+}
+
+.address .add2 {
+    font-size: 15px;
+    border-right: 2px solid black;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.address .add3 {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+
+
+/* SECOND PART */
+
+
+.secondpart {
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    border-bottom: 2px solid black;
+    /* height: 340px;*/
+}
+
+.secondpart .leftcontent {
+    padding-right: 30px;
+}
+
+.secondpart .leftcontent h3 {
+    font-size: 40px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    letter-spacing: 6px;
+}
+
+.secondpart .leftcontent p {
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 2px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+.secondpart .rightcontent {
+    padding-left: 10px;
+    /* width: 50%; */
+    /* height: 100vh; */
+}
+
+.secondpart .rightcontent img {
+    margin-top: 5px;
+    height: 250px;
+    width: 250px;
+    /* clip-path: circle(); */
+    border-radius: 50%;
+}
+
+
+
+/* THIRD PART  */
+
+
+.thirdpart {
+    display: flex;
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    /* padding: 40px 101px 40px 101px; */
+    border-bottom: 2px solid black;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.thirdpart .three-leftcontent {
+    padding: 60px 0px 60px 0px;
+}
+
+.thirdpart .three-midcontent {
+    padding: 60px 0px 60px 0px;
+}
+
+.thirdpart .three-rightcontent {
+    padding: 60px 0px 60px 0px;
+}
+
+.thirdpart .three-leftcontent h3 {
+    font-size: 40px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    letter-spacing: 6px;
+}
+
+.thirdpart .three-leftcontent .skills1 {
+    display: flex;
+}
+
+.thirdpart .three-leftcontent .skills1 .leftskill1 {
+    padding-right: 40px;
+
+}
+
+.thirdpart .three-leftcontent .skills1 .leftskill1 h6 {
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 2px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+
+}
+
+.thirdpart .three-leftcontent .skills1 .rightskill1 {
+    padding-right: 40px;
+}
+
+.thirdpart .three-leftcontent .skills1 .rightskill1 h6 {
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 2px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+}
+
+.thirdpart .three-midcontent h3 {
+    font-size: 40px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    letter-spacing: 6px;
+}
+
+.thirdpart .three-midcontent .skills1 {
+    display: flex;
+}
+
+.thirdpart .three-midcontent .skills1 .leftskill1 {
+    padding-right: 40px;
+
+}
+
+.thirdpart .three-midcontent .skills1 .leftskill1 h6 {
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 2px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+
+}
+
+.thirdpart .three-midcontent .skills1 .rightskill1 {
+    padding-right: 40px;
+}
+
+.thirdpart .three-midcontent .skills1 .rightskill1 h6 {
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 2px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+}
+
+
+.thirdpart .three-rightcontent {
+    /* display: flex;
+    justify-content: flex-end; */
+    /* position: absolute;
+    right: 130px; */
+}
+
+.thirdpart .three-rightcontent h3 {
+    font-size: 40px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    letter-spacing: 6px;
+}
+
+.thirdpart .three-rightcontent .skills2 {
+    display: flex;
+}
+
+.thirdpart .three-rightcontent .skills2 .leftskill2 {
+    padding-right: 40px;
+
+}
+
+.thirdpart .three-rightcontent .skills2 .leftskill2 h6 {
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 2px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+
+}
+
+.thirdpart .three-righttcontent .skills2 .rightskill2 {
+    padding-right: 40px;
+}
+
+.thirdpart .three-rightcontent .skills2 .rightskill2 h6 {
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 2px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+}
+
+
+
+
+/* FORTH PART */
+
+.forthpart {
+    /* display: flex; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid black;
+}
+
+.forthpart h3 {
+    font-size: 50px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    letter-spacing: 6px;
+}
+
+.forthpart .qualification {
+
+    margin-top: 55px;
+    margin-bottom: 3px;
+
+}
+
+.forthpart .qualification h4 {
+    font-size: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    letter-spacing: 3px;
+}
+
+.forthpart .qualification h6 {
+    font-size: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    letter-spacing: 3px;
+}
+
+.forthpart .qualification p {
+    font-size: 16px;
+    /* margin-top: 3px;
+    margin-bottom: 3px; */
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    line-height: 35px;
+}
+
+
+
+/* FIFTH PART */
+
+.fifthpart {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid black;
+}
+
+.fifthpart h3 {
+    font-size: 40px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    letter-spacing: 6px;
+}
+
+.fifthpart .achivement {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+
+/* FOOTER  */
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+
+footer div {
+    padding: 10px;
+}
+
+footer div svg {
+    height: 25px;
+}
+
+@media only screen and (max-width: 995px) {
+
+    /* body {
+      background-color: lightblue;
+    } */
+    .secondpart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+
+    .secondpart .leftcontent {
+        padding-right: 0px;
+    }
+    .secondpart .leftcontent h3 {
+        text-align: center;
+    }
+
+    .secondpart .leftcontent p {
+        text-align: center;
+    }
+
+    .secondpart .rightcontent {
+        padding-left: 0px;
+        /* width: 60%; */
+        /* height: 100vh; */
+    }
+}
+
+@media only screen and (max-width: 735px) {
+
+    /* body {
+      background-color: lightblue;
+    } */
+    .resume {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .name h1 {
+        font-size: 30px;
+    }
+    .name h3 {
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+
+    .address {
+        letter-spacing: 1px;
+        word-spacing: 0px;
+    }
+
+    .secondpart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+
+    .secondpart .leftcontent h3 {
+        text-align: center;
+    }
+
+    .secondpart .leftcontent p {
+        text-align: center;
+    }
+
+    .secondpart .rightcontent {
+        padding-left: 0px;
+        /* width: 60%; */
+        /* height: 100vh; */
+    }
+    .thirdpart .three-leftcontent .skills1 .rightskill1 {
+        padding-right: 0px;
+    }
+    .thirdpart .three-midcontent .skills1 .rightskill1 {
+        padding-right: 0px;
+    }
+}
